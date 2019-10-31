@@ -5,3 +5,122 @@
   height: 70px;
   margin: 10px;
 }
+
+/* ----------------main-------------- */
+.about-me {
+  background-color: white;
+}
+
+.wrapper-foto-about-me {
+  margin: 30px auto;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+}
+
+.foto-about-me {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.about-me-hi,
+.about-me-description,
+.about-me-title,
+.timeLin-title {
+  margin: 30px auto;
+  color: black;
+  font-size: 20px;
+  font-family: "Raleway", Calibri, Arial, sans-serif;
+}
+
+.about-me-title {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.about-me-description {
+  max-width: 700px;
+}
+
+.timeLin-title {
+  color: white;
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.wrapper-examples {
+  background-color: #e6ecf0;
+  height: 100%;
+  width: 100%;
+  padding-top: 40px;
+}
+
+.examples-title {
+  color: #000;
+  font-family: "Raleway", Calibri, Arial, sans-serif;
+  margin: 0;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.examples-subtitle {
+  color: #000;
+  font-family: "Raleway", Calibri, Arial, sans-serif;
+  margin: 0;
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 300;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+
+.ex-wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.example {
+  height: 240px;
+  width: 360px;
+  margin-bottom: 45px;
+  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  position: relative;
+}
+
+.example__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #1c1d25;
+  opacity: 0;
+  -webkit-transition: .2s;
+  -o-transition: .2s;
+  transition: .2s;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  cursor: pointer;
+}
