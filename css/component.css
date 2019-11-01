@@ -17,11 +17,31 @@
 	margin: 0;
 	padding: 0;
 	color: #f9f1e9;
-	text-align: center;
 	top: 40%;
-	left: 50%;
-	-webkit-transform: translate3d(-50%,-50%,0);
+	left: 50%;	
 	transform: translate3d(-50%,-50%,0);
+	font-family: "Raleway", Calibri, Arial, sans-serif;
+}
+
+.wrapper-main-subTitle {
+	position: absolute;
+	top: 58%;
+	font-size: 30px;
+	text-align: center;
+	left: 50%;	
+	transform: translate3d(-50%,-50%,0);
+	font-family: "Raleway", Calibri, Arial, sans-serif;
+}
+
+.wave {
+  color: #999999;
+  animation: 0.5s color infinite;
+}
+
+@keyframes color {
+  50% {
+    color: #8fc8ae;
+  }
 }
 
 .demo-1 .main-title {
@@ -36,3 +56,4 @@
 	}
 
 }
+
