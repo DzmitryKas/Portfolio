@@ -1,36 +1,36 @@
 /* Header */
 .large-header {
-	position: relative;
-	width: 100%;
-	background: #333;
-	overflow: hidden;
-	background-size: cover;
-	background-position: center center;
+  position: relative;
+  width: 100%;
+  background: #333;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;
 }
 
 .demo-1 .large-header {
-	background-image: url('../img/demo-1-bg.jpg');
+  background-image: url("../img/demo-1-bg.jpg");
 }
 
 .main-title {
-	position: absolute;
-	margin: 0;
-	padding: 0;
-	color: #f9f1e9;
-	top: 40%;
-	left: 50%;	
-	transform: translate3d(-50%,-50%,0);
-	font-family: "Raleway", Calibri, Arial, sans-serif;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  color: #f9f1e9;
+  top: 40%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  font-family: "Raleway", Calibri, Arial, sans-serif;
 }
 
 .wrapper-main-subTitle {
-	position: absolute;
-	top: 58%;
-	font-size: 30px;
-	text-align: center;
-	left: 50%;	
-	transform: translate3d(-50%,-50%,0);
-	font-family: "Raleway", Calibri, Arial, sans-serif;
+  position: absolute;
+  top: 58%;
+  font-size: 30px;
+  text-align: center;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  font-family: "Raleway", Calibri, Arial, sans-serif;
 }
 
 .wave {
@@ -45,15 +45,13 @@
 }
 
 .demo-1 .main-title {
-	text-transform: uppercase;
-	font-size: 4.2em;
-	letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 4.2em;
+  letter-spacing: 0.1em;
 }
 
-@media only screen and (max-width : 768px) {
-	.demo-1 .main-title {
-		font-size: 3em;
-	}
-
+@media only screen and (max-width: 768px) {
+  .demo-1 .main-title {
+    font-size: 3em;
+  }
 }
-
