@@ -16,7 +16,6 @@
   position: absolute;
   margin: 0;
   padding: 0;
-  color: #f9f1e9;
   top: 40%;
   left: 50%;
   transform: translate3d(-50%, -50%, 0);
@@ -34,7 +33,6 @@
 }
 
 .wave {
-  color: #999999;
   animation: 0.5s color infinite;
 }
 
@@ -48,6 +46,8 @@
   text-transform: uppercase;
   font-size: 4.2em;
   letter-spacing: 0.1em;
+  padding: 20px;
+  border: 5px solid white;
 }
 
 @media only screen and (max-width: 768px) {
