@@ -52,6 +52,11 @@
   max-width: 700px;
 }
 
+.wrapper-timeline {
+  background-image: url("../assets/img/header-backgraund.jpeg");
+  background-attachment: fixed;
+}
+
 .timeLin-title {
   color: white;
   font-size: 3rem;
