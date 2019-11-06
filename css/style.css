@@ -6,6 +6,10 @@
   margin: 10px;
 }
 
+.header {
+  background: #ddd url(../assets/img/header-backgraund.jpeg) repeat top left;
+}
+
 /* ----------------main-------------- */
 .about-me {
   background-color: white;

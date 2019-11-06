@@ -67,8 +67,7 @@
                 }
                 function hexToRgbaColor(color)
                 {
-                    'use strict';
-                    console.log(color);
+                    'use strict';                    
                     var isColor = colorCheck(color)[0],
                         defaultColor = '#b50000',
                         neigborDefaultColor = '#5E0000';

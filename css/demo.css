@@ -20,7 +20,10 @@ body {
 	font-size: 1em;
 	line-height: 1.25;
 	font-family: 'Raleway', Calibri, Arial, sans-serif;
+	background: #ddd url(../assets/img/header-backgraund.jpeg) repeat top left;
 }
+
+
 
 a, button {
 	outline: none;
