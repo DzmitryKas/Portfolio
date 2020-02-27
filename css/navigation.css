@@ -21,7 +21,7 @@
 	 right: 9px;
 	 height: 36px;
 	 width: 36px;
-	 z-index: 1;
+	 z-index: 3;
 	 cursor: pointer;
 	 overflow: hidden;
 }
