@@ -5,6 +5,14 @@
 	-ms-perspective: 800px;
 	perspective: 800px;
 }
+
+@media screen and (max-width: 350px) {
+	.view { 
+		overflow: hidden; 
+	}
+  }
+
+
 .view:hover .s1{
 	-webkit-transition-delay: 200ms;
 	-moz-transition-delay: 200ms;

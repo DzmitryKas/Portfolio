@@ -11,6 +11,13 @@
   margin: 0 auto;
   font-family: Helvetica, Arial, sans-serif;
 }
+
+@media screen and (max-width: 700px) {
+	.container-skills { 
+		width: 80%;
+	}
+  }
+
 @keyframes load{
   from {
     width: 0%
