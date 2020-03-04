@@ -1,122 +1,130 @@
 @import url(https://fonts.googleapis.com/css?family=Quicksand);
- html, body {
-	 height: 100%;
-	 background-color: #333;
-	 font-family: 'Quicksand', sans-serif;
-	 color: white;
+html,
+body {
+  height: 100%;
+  background-color: #333;
+  font-family: "Quicksand", sans-serif;
+  color: white;
 }
- .b-a, .bar, .bar:before, .bar:after {
-	 transition: all 0.25s;
-	 content: "";
-	 right: 0;
-	 height: 6px;
-	 width: 30px;
-	 border-radius: 15px;
-	 background-color: rgba(255, 255, 255, 0.95);
+.b-a,
+.bar,
+.bar:before,
+.bar:after {
+  transition: all 0.25s;
+  content: "";
+  right: 0;
+  height: 6px;
+  width: 30px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.95);
 }
- .menu-collapsed {
-	 transition: all 0.25s;
-	 position: fixed;
-	 top: 10px;
-	 right: 9px;
-	 height: 36px;
-	 width: 36px;
-	 z-index: 3;
-	 cursor: pointer;
-	 overflow: hidden;
+.menu-collapsed {
+  transition: all 0.25s;
+  position: fixed;
+  top: 10px;
+  right: 9px;
+  height: 36px;
+  width: 36px;
+  z-index: 3;
+  cursor: pointer;
+  overflow: hidden;
 }
- .menu-collapsed ul {
-	 transition: all 0s;
-	 position: fixed;
-	 right: -9000px;
+.menu-collapsed ul {
+  transition: all 0s;
+  position: fixed;
+  right: -9000px;
 }
 
 .wrapper-bar {
-	height: 50px;
-    width: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-	background: white;
-	position: fixed;
-	right: 12px;
-	top: 24px;
-}
- .bar {
-	 position: relative;
-background-color: black;
-}
- .bar:before {
-	position: absolute;
-	background-color: black;
-	 top: -8px;
-}
- .bar:after {
-	position: absolute;
-	background-color: black;
-	 top: 8px;
-}
- .b-a-expanded, .menu-expanded .bar:before, .menu-expanded .bar:after {
-	 transition: all 0.25s;
-	 top: 0px;
-}
- .menu-expanded {
-	 transition: all 0.25s;
-	 text-align: center;
-	 height: 100%;
-	 width: 100%;
-	 border-radius: 0px;
-	 top: 0;
-	 right: 0;
-	 background-color: rgba(0, 0, 0, 0.85);
-	 overflow: auto;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: white;
+  position: fixed;
+  right: 12px;
+  top: 24px;
+  transition: opacity .3s ease;
 }
 
-.menu-expanded nav{
-	height: 100%;
+.wrapper-bar:hover {
+	opacity: .8;
+}
+.bar {
+  position: relative;
+  background-color: black;
+}
+.bar:before {
+  position: absolute;
+  background-color: black;
+  top: -8px;
+}
+.bar:after {
+  position: absolute;
+  background-color: black;
+  top: 8px;
+}
+.b-a-expanded,
+.menu-expanded .bar:before,
+.menu-expanded .bar:after {
+  transition: all 0.25s;
+  top: 0px;
+}
+.menu-expanded {
+  transition: all 0.25s;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 0px;
+  top: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+  overflow: auto;
+}
+
+.menu-expanded nav {
+  height: 100%;
 }
 
 .menu-expanded ul {
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	 transition: all 0s;
-	 position: relative;
-	 right: 0;
-	 z-index: 2;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  transition: all 0s;
+  position: relative;
+  right: 0;
+  z-index: 2;
 }
 
- .menu-expanded a {
-	 transition: all 0.15s;
-	 text-decoration: none;
-	 font-size: 2em;
-	 padding: 5px;
-	 color: #fff;
-	 display: block;
+.menu-expanded a {
+  transition: all 0.15s;
+  text-decoration: none;
+  font-size: 2em;
+  padding: 5px;
+  color: #fff;
+  display: block;
 }
- .menu-expanded a:hover {
-	 background-color: rgba(255, 255, 255, .8);
-	 transition: all 0.15s;
-	 letter-spacing: 2px;
-	 color: #333;
-	 border: 1px solid rgba(255, 255, 255, .15);
+.menu-expanded a:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  transition: all 0.15s;
+  letter-spacing: 2px;
+  color: #333;
+  border: 1px solid rgba(255, 255, 255, 0.15);
 }
- .menu-expanded .bar {
-	 background-color: transparent;
-	 transition: all 0.25s;
+.menu-expanded .bar {
+  background-color: transparent;
+  transition: all 0.25s;
 }
- .menu-expanded .bar:before {
-	 transform: rotate(45deg);
+.menu-expanded .bar:before {
+  transform: rotate(45deg);
 }
- .menu-expanded .bar:after {
-	 transform: rotate(-45deg);
+.menu-expanded .bar:after {
+  transform: rotate(-45deg);
 }
 
 li {
   list-style-type: none;
 }
-
-
- 
